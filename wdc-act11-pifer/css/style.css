@@ -1,0 +1,116 @@
+html { 	    background-color:#354; 
+			background-image:url(../img/bg-stripe.png);
+			padding: .5em 0; 
+			font-size: 100%; }
+body { 	    width:94%; max-width:900px;
+			background-color:#fc0; 
+			margin: 0 auto; 
+            padding: 2px;
+			font-size: 100%;
+			box-shadow: 1px 0px 16px rgba(0,0,0,.5);
+			border-radius:.6em; }
+header, footer {
+            background: #558855; /* Old browsers */
+            background: -moz-radial-gradient(center, ellipse cover,  #557755 0%, #446644 100%); /* FF3.6+ */
+            background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#557755), color-stop(100%,#446644)); /* Chrome,Safari4+ */
+            background: -webkit-radial-gradient(center, ellipse cover,  #557755 0%,#446644 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-radial-gradient(center, ellipse cover,  #557755 0%,#446644 100%); /* Opera 12+ */
+            background: -ms-radial-gradient(center, ellipse cover,  #557755 0%,#446644 100%); /* IE10+ */
+            background: radial-gradient(ellipse at center,  #557755 0%,#446644 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#557755', endColorstr='#446644',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */  }
+header {	margin-bottom:2px;
+			border-top-left-radius:.5em;
+			border-top-right-radius:.5em;
+			box-shadow: inset 1px 1px 3px rgba(255,255,255,1),
+							   inset -1px -1px 3px rgba(0,0,0,.75); }
+main { 	    display:block;
+			padding: 1em 8% 1em 8%; 
+			background-color:#dca; 
+			margin-bottom:2px;
+			box-shadow: inset 2px 0px 3px rgba(255,255,255,1),
+							   inset -1px -1px 3px rgba(0,0,0,.75);  }
+footer {	padding: .3em 8%;
+			border-bottom-left-radius:.5em;
+			border-bottom-right-radius:.5em;
+			box-shadow: inset 1px 1px 3px rgba(255,255,255,1),
+				inset -1px -1px 3px rgba(0,0,0,.75); }
+h1 { 		padding: .5em 8% .3em 8%; 
+			margin: 0 0 0 0;
+			font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+			font-size: 1.25em; font-weight: 700; color: #ddf;
+			line-height:1.1; }
+h2 { 		background-color:#322;
+			margin: 0 0 0 0; 
+			padding: .9em 8% .2em 8%;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 2em; font-weight: 400; 
+            color: #c96;
+			line-height:1.1;
+			box-shadow: inset 2px 1px 3px rgba(255,255,255,.7),
+				inset -1px 0px 3px rgba(0,0,0,.75); }
+h3 { 		font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em; }
+em { 		font-style:italic; color: rgba(0,0,0,.5); }
+strong {    font-weight:bold; }
+small {	    font-size:.7em; }
+p {         font-size: 1em; font-weight: 300; 
+			font-family: Georgia, "Times New Roman", Times, serif; 
+			line-height: 1.2; color:#543;
+			margin: .5em 0 .75em 0; }
+footer p {				
+			font-size:.8em;
+			font-family: Georgia, "Times New Roman", Times, serif; 
+			line-height: 1.2; color:#cc9;  }
+
+ul { 
+			list-style-type: disc; 
+			list-style-position: outside;    margin-left: 35px; }
+ol { 
+			list-style-type: decimal; 
+			list-style-position: outside;    margin-left: 35px; }
+li { 		margin-bottom:.4em; }
+ul ul, ol ul { 
+			list-style-type: circle; 
+			list-style-position: inside; 
+			margin-left: 15px; }
+ol ol, ul ol { 
+			list-style-type: lower-latin; 
+			list-style-position: inside; 
+			margin-left: 15px; }
+
+.content_img_full { width:100%; 
+            margin:0 .5em .5em 0; }
+.content_img_half { width:48.5%; 
+            float:left;
+            margin:0 1em .5em 0; }
+.content_img_3_quarters { width:73.5%; 
+            float:left;
+            margin:0 .5em .5em 0; }
+.right {    float:right;
+            margin:0 0 .5em 1em; }
+
+.non_panel { margin: 0 0 .95em 0; padding: 0; }
+.panel_1, .panel_2, .panel_3 {	background-color:#ca8; 
+			margin: 0 0 .95em 0; padding: 1em 3% .5em 3%;
+			color:#b0bbcc; }
+.panel_1 h3 { color:#fffadd;
+			margin: .5em 0 .25em 0; }
+.panel_2 {	background-color:#9a8; color:#D59079; }
+.panel_3 {	background-color:#9aa; color:#D59079; }
+.panel_2 h3, .panel_3 h3 { 
+			margin: .5em 0 .25em 0;
+			font-weight: 400; color:#f4dca8; }
+.panel_2 p, .panel_3 p { 
+			color:#ffffef; }
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+	
+@media screen and (min-width:721px){
+	html {	font-size:110%;	}
+	body{   width:80%; 	}
+} /* end media query 721px and wider */
